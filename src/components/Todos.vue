@@ -15,7 +15,7 @@ export default {
   name: "Todos",
   methods: {
       ...mapActions(['fetchTodos']),
-  },
+  }, 
   computed: mapGetters(["allTodos"]), 
   created() {
       this.fetchTodos();
